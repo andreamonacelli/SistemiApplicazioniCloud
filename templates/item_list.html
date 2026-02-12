@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>List of Items</title>
+    </head>
+    <body>
+        <h1>List of items</h1>
+        <ul>
+            <!-- Change the values shown according to your data -->
+            {%for item in items%}
+                <li><a href="/item/{{item['id']}}">{{item['nome']}}</a></li>
+            {%endfor%}
+        </ul>
+    </body>
+</html>
