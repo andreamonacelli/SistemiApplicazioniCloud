@@ -150,8 +150,8 @@ def json_parse(s):
         return s
 
 if __name__ == "__main__":
-    test = TestEndpoints('https://api-dot-bollette250722.nw.r.appspot.com')
-    #test = TestEndpoints('http://localhost:8080')        
+    test = TestEndpoints('https://api-dot-sacexamprep.nw.r.appspot.com')
+    #test = TestEndpoints('http://localhost:8080')
     #test = TestEndpoints('https://sac230116rl.nw.r.appspot.com')        
     pprint(test.validate_apis())
     
